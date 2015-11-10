@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F525B74F1BDDCDEA0035BEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525B74E1BDDCDEA0035BEEB /* AppDelegate.swift */; };
-		F525B7511BDDCDEA0035BEEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525B7501BDDCDEA0035BEEB /* ViewController.swift */; };
+		F525B7511BDDCDEA0035BEEB /* RecordSounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525B7501BDDCDEA0035BEEB /* RecordSounViewController.swift */; };
 		F525B7541BDDCDEA0035BEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F525B7521BDDCDEA0035BEEB /* Main.storyboard */; };
-		F525B7561BDDCDEA0035BEEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F525B7551BDDCDEA0035BEEB /* Images.xcassets */; };
 		F525B7591BDDCDEA0035BEEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F525B7571BDDCDEA0035BEEB /* LaunchScreen.xib */; };
 		F525B7651BDDCDEA0035BEEB /* Rec2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525B7641BDDCDEA0035BEEB /* Rec2Tests.swift */; };
+		F525B76F1BDDCEB10035BEEB /* MIC-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F525B76E1BDDCEB10035BEEB /* MIC-3.png */; };
+		F525B7711BDDD04F0035BEEB /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = F525B7701BDDD04F0035BEEB /* mic.png */; };
+		F54B1F101BDE9E2C00FAC9F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54B1F0F1BDE9E2C00FAC9F6 /* Images.xcassets */; };
+		F56178771BDEBFB100D75BEB /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56178761BDEBFB100D75BEB /* PlaySoundViewController.swift */; };
+		F56178791BDEC48900D75BEB /* Hole.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F56178781BDEC48900D75BEB /* Hole.aiff */; };
+		F561787B1BDF1C7300D75BEB /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F561787A1BDF1C7300D75BEB /* RecordedAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		F525B7491BDDCDEA0035BEEB /* Rec2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rec2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F525B74D1BDDCDEA0035BEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F525B74E1BDDCDEA0035BEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F525B7501BDDCDEA0035BEEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F525B7501BDDCDEA0035BEEB /* RecordSounViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSounViewController.swift; sourceTree = "<group>"; };
 		F525B7531BDDCDEA0035BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F525B7551BDDCDEA0035BEEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F525B7581BDDCDEA0035BEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F525B75E1BDDCDEA0035BEEB /* Rec2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rec2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F525B7631BDDCDEA0035BEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F525B7641BDDCDEA0035BEEB /* Rec2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rec2Tests.swift; sourceTree = "<group>"; };
+		F525B76E1BDDCEB10035BEEB /* MIC-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MIC-3.png"; sourceTree = "<group>"; };
+		F525B7701BDDD04F0035BEEB /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		F54B1F0F1BDE9E2C00FAC9F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F56178761BDEBFB100D75BEB /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
+		F56178781BDEC48900D75BEB /* Hole.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Hole.aiff; sourceTree = "<group>"; };
+		F561787A1BDF1C7300D75BEB /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +87,14 @@
 		F525B74B1BDDCDEA0035BEEB /* Rec2 */ = {
 			isa = PBXGroup;
 			children = (
+				F56178761BDEBFB100D75BEB /* PlaySoundViewController.swift */,
 				F525B74E1BDDCDEA0035BEEB /* AppDelegate.swift */,
-				F525B7501BDDCDEA0035BEEB /* ViewController.swift */,
+				F561787A1BDF1C7300D75BEB /* RecordedAudio.swift */,
+				F525B7501BDDCDEA0035BEEB /* RecordSounViewController.swift */,
 				F525B7521BDDCDEA0035BEEB /* Main.storyboard */,
-				F525B7551BDDCDEA0035BEEB /* Images.xcassets */,
+				F54B1F0F1BDE9E2C00FAC9F6 /* Images.xcassets */,
+				F525B7701BDDD04F0035BEEB /* mic.png */,
+				F525B76E1BDDCEB10035BEEB /* MIC-3.png */,
 				F525B7571BDDCDEA0035BEEB /* LaunchScreen.xib */,
 				F525B74C1BDDCDEA0035BEEB /* Supporting Files */,
 			);
@@ -90,6 +104,7 @@
 		F525B74C1BDDCDEA0035BEEB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F56178781BDEC48900D75BEB /* Hole.aiff */,
 				F525B74D1BDDCDEA0035BEEB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +171,8 @@
 		F525B7411BDDCDEA0035BEEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Nylon;
 				TargetAttributes = {
@@ -193,8 +210,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F525B7541BDDCDEA0035BEEB /* Main.storyboard in Resources */,
+				F54B1F101BDE9E2C00FAC9F6 /* Images.xcassets in Resources */,
+				F525B7711BDDD04F0035BEEB /* mic.png in Resources */,
+				F525B76F1BDDCEB10035BEEB /* MIC-3.png in Resources */,
+				F56178791BDEC48900D75BEB /* Hole.aiff in Resources */,
 				F525B7591BDDCDEA0035BEEB /* LaunchScreen.xib in Resources */,
-				F525B7561BDDCDEA0035BEEB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F525B7511BDDCDEA0035BEEB /* ViewController.swift in Sources */,
+				F561787B1BDF1C7300D75BEB /* RecordedAudio.swift in Sources */,
+				F525B7511BDDCDEA0035BEEB /* RecordSounViewController.swift in Sources */,
+				F56178771BDEBFB100D75BEB /* PlaySoundViewController.swift in Sources */,
 				F525B74F1BDDCDEA0035BEEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +433,7 @@
 				F525B76A1BDDCDEB0035BEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F525B76B1BDDCDEB0035BEEB /* Build configuration list for PBXNativeTarget "Rec2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +442,7 @@
 				F525B76D1BDDCDEB0035BEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../PlaySoundViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:Rec2.xcodeproj">
    </FileRef>
 </Workspace>
